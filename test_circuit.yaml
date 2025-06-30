@@ -1,0 +1,32 @@
+circuit_design:
+  name: "TestCircuit"
+  description: "Ein einfacher Test mit drei Bauteilen"
+  board_type: "Flex"
+
+  components:
+    - ref_des: "U1"
+      type: "MCU"
+      block: "logic"
+    - ref_des: "C1"
+      type: "Capacitor_IEC"
+      value: "100nF"
+      block: "bypass"
+    - ref_des: "R1"
+      type: "Resistor_IEC"
+      value: "10k"
+      block: "bias"
+
+  nets:
+    - name: "VCC"
+      connections:
+        - "U1.P1"
+        - "C1.P1"
+    - name: "GND"
+      connections:
+        - "U1.P2"
+        - "C1.P2"
+        - "R1.P2"
+    - name: "OUT"
+      connections:
+        - "U1.P3"
+        - "R1.P1"

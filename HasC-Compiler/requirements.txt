@@ -1,0 +1,4 @@
+pyyaml
+svgwrite        # optional: SVG-Erzeugung mit Komfort
+networkx        # optional: Netze automatisch layouten
+cairosvg        # optional: SVG zu PDF/Gerber konvertieren

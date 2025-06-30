@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0">
+    <symbol id="Resistor_IEC" viewBox="0 0 40 20">
+        <path d="M0,10 h5 l2,-5 l2,10 l2,-10 l2,10 l2,-5 h5" stroke="black" fill="none" stroke-width="1" />
+    </symbol>
+    <symbol id="Capacitor_IEC" viewBox="0 0 40 20">
+        <path d="M0,10 h10 M10,5 v10 M16,5 v10 M16,10 h10" stroke="black" fill="none" stroke-width="1" />
+    </symbol>
+    <symbol id="GND" viewBox="0 0 40 20">
+        <path d="M10,0 v5 M5,5 h10 M6,7 h8 M7,9 h6" stroke="black" fill="none" stroke-width="1" />
+    </symbol>
+    <symbol id="MCU" viewBox="0 0 40 20">
+        <rect x="5" y="2" width="30" height="16" stroke="black" fill="white" /><text x="20" y="13" font-size="4"
+            text-anchor="middle">MCU</text>
+    </symbol>
+    <symbol id="Battery" viewBox="0 0 40 20">
+        <path d="M0,10 h8 M8,5 v10 M12,3 v14 M12,10 h8" stroke="black" fill="none" stroke-width="1" />
+    </symbol>
+    <symbol id="Pin" viewBox="0 0 40 20">
+        <path d="M0,10 h10" stroke="black" fill="none" stroke-width="1" />
+    </symbol>
+</svg>
